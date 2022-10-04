@@ -22,7 +22,7 @@ if response.status_code == 200:
 
     # show the weather
     print(main_weather, '-', description_weather)
-    print('temperature:', temperature)
+    print('Temperature:', temperature)
     print(f'Max: {temperature_maximum}c / Min: {temperature_minimum}c - Feels Like: {temperature_feels}c')
 
 # if an error appears during the execution
