@@ -8,7 +8,7 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 # put city name and request data
 city = input("Enter a city name: ")
 requests_url = f"{BASE_URL}?appid={API_KEY}&q={city}"
-response = requests.get(reuqests_url)
+response = requests.get(requests_url)
 
 # create a condition and put the commands
 if response.status_code == 200:
